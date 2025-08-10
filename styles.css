@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    text-align: left;
+}
+
+.word-card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    padding: 50px 45px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.word-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+}
+
+.word-header {
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 30px;
+}
+
+#word-text {
+    font-size: 48px;
+    color: #2c3e50;
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+}
+
+.pronunciation {
+    font-size: 20px;
+    color: #7f8c8d;
+    margin-bottom: 8px;
+    font-style: italic;
+}
+
+.part-of-speech {
+    display: inline-block;
+    background: linear-gradient(45deg, #4facfe, #00f2fe);
+    color: white;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: lowercase;
+    letter-spacing: 0.5px;
+}
+
+.definition-section,
+.example-section,
+.etymology-section {
+    margin-bottom: 30px;
+}
+
+.definition-section h3,
+.example-section h3,
+.etymology-section h3 {
+    font-size: 18px;
+    color: #34495e;
+    margin-bottom: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#word-definition {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #2c3e50;
+    font-weight: 400;
+}
+
+#word-example {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #5d6d7e;
+    font-style: italic;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 4px solid #4facfe;
+}
+
+#word-etymology {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #7f8c8d;
+}
+
+.etymology-section {
+    display: none;
+}
+
+.etymology-section.visible {
+    display: block;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.new-word-btn,
+.pronounce-btn {
+    background: linear-gradient(45deg, #4facfe, #00f2fe);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 8px 16px rgba(79, 172, 254, 0.3);
+}
+
+.new-word-btn:hover,
+.pronounce-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 24px rgba(79, 172, 254, 0.4);
+}
+
+.new-word-btn:active,
+.pronounce-btn:active {
+    transform: translateY(0);
+}
+
+.pronounce-btn {
+    background: linear-gradient(45deg, #ff6b6b, #feca57);
+    box-shadow: 0 8px 16px rgba(255, 107, 107, 0.3);
+}
+
+.pronounce-btn:hover {
+    box-shadow: 0 12px 24px rgba(255, 107, 107, 0.4);
+}
+
+.date-display {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+    font-weight: 500;
+    backdrop-filter: blur(10px);
+}
+
+@media (max-width: 768px) {
+    .word-card {
+        padding: 35px 30px;
+    }
+    
+    #word-text {
+        font-size: 36px;
+    }
+    
+    .pronunciation {
+        font-size: 18px;
+    }
+    
+    #word-definition {
+        font-size: 18px;
+    }
+    
+    #word-example {
+        font-size: 16px;
+        padding: 15px;
+    }
+    
+    .bottom-section {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+    
+    .new-word-btn,
+    .pronounce-btn {
+        width: 100%;
+        max-width: 200px;
+    }
+}
