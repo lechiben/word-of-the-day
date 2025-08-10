@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Word of the Day</title>
+    <title>Word of the Day - GRE Vocabulary</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -32,13 +32,24 @@
         </div>
         
         <div class="bottom-section">
-            <button id="new-word-btn" class="new-word-btn">
-                <span>📚</span> Get New Word
-            </button>
-            <button id="pronounce-btn" class="pronounce-btn">
-                <span>🔊</span> Pronounce
-            </button>
-            <div class="date-display" id="current-date"></div>
+            <div class="button-group">
+                <button id="new-word-btn" class="new-word-btn" title="Get a random word (Press N)">
+                    <span>📚</span> Get New Word
+                </button>
+                <button id="pronounce-btn" class="pronounce-btn" title="Hear pronunciation (Press Space)">
+                    <span>🔊</span> Pronounce
+                </button>
+            </div>
+            <div class="info-section">
+                <div class="date-display" id="current-date"></div>
+                <div class="word-count" id="word-count">Loading vocabulary...</div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p class="help-text">
+                💡 <strong>Tips:</strong> Press <kbd>Space</kbd> to hear pronunciation, <kbd>N</kbd> for new word
+            </p>
         </div>
     </div>
 
