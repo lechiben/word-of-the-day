@@ -7,6 +7,1817 @@
     "example": "The contentious issue divided the committee."
   },
   {
+    "word": "Aberrant",
+    "pronunciation": "/ˈæbərənt/",
+    "partOfSpeech": "adjective",
+    "definition": "Departing from an accepted standard",
+    "example": "His aberrant behavior raised concerns."
+  },
+  {
+    "word": "Abhor",
+    "pronunciation": "/əbˈhɔːr/",
+    "partOfSpeech": "verb",
+    "definition": "To regard with disgust and hatred",
+    "example": "I abhor cruelty to animals."
+  },
+  {
+    "word": "Abjure",
+    "pronunciation": "/əbˈdʒʊr/",
+    "partOfSpeech": "verb",
+    "definition": "To solemnly renounce a belief, cause, or claim",
+    "example": "She abjured her faith."
+  },
+  {
+    "word": "Abrasive",
+    "pronunciation": "/əˈbreɪsɪv/",
+    "partOfSpeech": "adjective",
+    "definition": "Harsh or rough in manner or texture",
+    "example": "His abrasive style made him unpopular."
+  },
+  {
+    "word": "Abridge",
+    "pronunciation": "/əˈbrɪdʒ/",
+    "partOfSpeech": "verb",
+    "definition": "To shorten without losing the sense",
+    "example": "The editor abridged the novel."
+  },
+  {
+    "word": "Abrogate",
+    "pronunciation": "/ˈæbrəˌɡeɪt/",
+    "partOfSpeech": "verb",
+    "definition": "To repeal or do away with a law or agreement",
+    "example": "The treaty was abrogated by mutual consent."
+  },
+  {
+    "word": "Abstemious",
+    "pronunciation": "/æbˈstiː.mi.əs/",
+    "partOfSpeech": "adjective",
+    "definition": "Not self-indulgent, especially with food and drink",
+    "example": "He stayed healthy by leading an abstemious lifestyle."
+  },
+  {
+    "word": "Abstruse",
+    "pronunciation": "/əbˈstruːs/",
+    "partOfSpeech": "adjective",
+    "definition": "Difficult to understand; obscure",
+    "example": "An abstruse philosophical debate."
+  },
+  {
+    "word": "Accentuate",
+    "pronunciation": "/əkˈsen.tʃu.eɪt/",
+    "partOfSpeech": "verb",
+    "definition": "To make more noticeable or prominent",
+    "example": "The sleeves accentuate the jacket's shape."
+  },
+  {
+    "word": "Acclaim",
+    "pronunciation": "/əˈkleɪm/",
+    "partOfSpeech": "verb",
+    "definition": "To praise enthusiastically and publicly",
+    "example": "The book was acclaimed by critics."
+  },
+  {
+    "word": "Accolade",
+    "pronunciation": "/ˈæk.ə.leɪd/",
+    "partOfSpeech": "noun",
+    "definition": "An award or privilege granted as a special honor",
+    "example": "She received accolades for her work in science."
+  },
+  {
+    "word": "Accord",
+    "pronunciation": "/əˈkɔːrd/",
+    "partOfSpeech": "noun",
+    "definition": "An official agreement or treaty",
+    "example": "The two countries signed a peace accord."
+  },
+  {
+    "word": "Acerbic",
+    "pronunciation": "/əˈsɜːrbɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Sharp and forthright, especially of a comment",
+    "example": "Her acerbic wit sometimes hurt feelings."
+  },
+  {
+    "word": "Acme",
+    "pronunciation": "/ˈæk.mi/",
+    "partOfSpeech": "noun",
+    "definition": "The highest point or stage",
+    "example": "The artist reached the acme of his career."
+  },
+  {
+    "word": "Acrid",
+    "pronunciation": "/ˈæk.rɪd/",
+    "partOfSpeech": "adjective",
+    "definition": "Having a strong and unpleasant taste or smell",
+    "example": "Acrid smoke filled the air."
+  },
+  {
+    "word": "Acrimonious",
+    "pronunciation": "/ˌæk.rɪˈmoʊ.ni.əs/",
+    "partOfSpeech": "adjective",
+    "definition": "Angry and bitter in speech or debate",
+    "example": "They had an acrimonious dispute."
+  },
+  {
+    "word": "Acumen",
+    "pronunciation": "/ˈæk.juː.mən/",
+    "partOfSpeech": "noun",
+    "definition": "The ability to make good judgments and quick decisions",
+    "example": "Business acumen is essential for success."
+  },
+  {
+    "word": "Adage",
+    "pronunciation": "/ˈæd.ɪdʒ/",
+    "partOfSpeech": "noun",
+    "definition": "A proverb or short statement expressing a general truth",
+    "example": "The adage 'practice makes perfect' remains relevant."
+  },
+  {
+    "word": "Adamant",
+    "pronunciation": "/ˈæd.ə.mənt/",
+    "partOfSpeech": "adjective",
+    "definition": "Refusing to be persuaded or to change one's mind",
+    "example": "She was adamant about not going."
+  },
+  {
+    "word": "Adapt",
+    "pronunciation": "/əˈdæpt/",
+    "partOfSpeech": "verb",
+    "definition": "To adjust to new conditions",
+    "example": "Animals adapt to changing environments."
+  },
+  {
+    "word": "Addendum",
+    "pronunciation": "/əˈden.dəm/",
+    "partOfSpeech": "noun",
+    "definition": "An item of additional material added at the end of a publication",
+    "example": "An addendum was added to the report."
+  },
+  {
+    "word": "Adept",
+    "pronunciation": "/əˈdept/",
+    "partOfSpeech": "adjective",
+    "definition": "Very skilled or proficient at something",
+    "example": "He is adept at solving complex problems."
+  },
+  {
+    "word": "Adhere",
+    "pronunciation": "/ədˈhɪr/",
+    "partOfSpeech": "verb",
+    "definition": "To stick firmly to a surface or belief",
+    "example": "The label did not adhere properly."
+  },
+  {
+    "word": "Adjudicate",
+    "pronunciation": "/əˈdʒuː.dɪ.keɪt/",
+    "partOfSpeech": "verb",
+    "definition": "To make a formal judgment or decision",
+    "example": "The case will be adjudicated next week."
+  },
+  {
+    "word": "Adjunct",
+    "pronunciation": "/ˈædʒ.ʌŋkt/",
+    "partOfSpeech": "noun",
+    "definition": "A thing added to something else as a supplementary part",
+    "example": "Part‑time work can be an adjunct to one's income."
+  },
+  {
+    "word": "Admonish",
+    "pronunciation": "/ədˈmɒn.ɪʃ/",
+    "partOfSpeech": "verb",
+    "definition": "To warn or reprimand firmly",
+    "example": "The teacher admonished the student for being late."
+  },
+  {
+    "word": "Adroit",
+    "pronunciation": "/əˈdrɔɪt/",
+    "partOfSpeech": "adjective",
+    "definition": "Clever or skillful in using the hands or mind",
+    "example": "An adroit negotiator resolved the dispute."
+  },
+  {
+    "word": "Adulation",
+    "pronunciation": "/ˌæd.jəˈleɪ.ʃən/",
+    "partOfSpeech": "noun",
+    "definition": "Excessive praise or flattery",
+    "example": "The singer enjoyed the adulation of her fans."
+  },
+  {
+    "word": "Adulterate",
+    "pronunciation": "/əˈdʌl.tə.reɪt/",
+    "partOfSpeech": "verb",
+    "definition": "To make something poorer in quality by adding another substance",
+    "example": "The milk had been adulterated with water."
+  },
+  {
+    "word": "Advocate",
+    "pronunciation": "/ˈæd.və.keɪt/",
+    "partOfSpeech": "verb",
+    "definition": "To publicly support or recommend",
+    "example": "She advocates for equal rights."
+  },
+  {
+    "word": "Aegis",
+    "pronunciation": "/ˈiː.dʒɪs/",
+    "partOfSpeech": "noun",
+    "definition": "The protection, backing, or support of a person or organization",
+    "example": "The project operates under the aegis of UNESCO."
+  },
+  {
+    "word": "Aesthetic",
+    "pronunciation": "/esˈθet.ɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Concerned with beauty or the appreciation of beauty",
+    "example": "The building has an appealing aesthetic design."
+  },
+  {
+    "word": "Affable",
+    "pronunciation": "/ˈæf.ə.bəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Friendly, good-natured, or easy to talk to",
+    "example": "He was an affable host."
+  },
+  {
+    "word": "Affectation",
+    "pronunciation": "/ˌæf.ekˈteɪ.ʃən/",
+    "partOfSpeech": "noun",
+    "definition": "Behavior, speech, or writing that is artificial and designed to impress",
+    "example": "His British accent was an affectation."
+  },
+  {
+    "word": "Affinity",
+    "pronunciation": "/əˈfɪn.ə.ti/",
+    "partOfSpeech": "noun",
+    "definition": "A natural liking for someone or something",
+    "example": "She has an affinity for languages."
+  },
+  {
+    "word": "Affirm",
+    "pronunciation": "/əˈfɜːrm/",
+    "partOfSpeech": "verb",
+    "definition": "To state positively or assert as valid",
+    "example": "He affirmed his innocence."
+  },
+  {
+    "word": "Afflict",
+    "pronunciation": "/əˈflɪkt/",
+    "partOfSpeech": "verb",
+    "definition": "To cause pain or suffering",
+    "example": "The region was afflicted by drought."
+  },
+  {
+    "word": "Affront",
+    "pronunciation": "/əˈfrʌnt/",
+    "partOfSpeech": "noun",
+    "definition": "An action or remark that causes outrage or offense",
+    "example": "His rude comment was an affront to her dignity."
+  },
+  {
+    "word": "Afoot",
+    "pronunciation": "/əˈfʊt/",
+    "partOfSpeech": "adjective",
+    "definition": "In progress; happening",
+    "example": "A plan is afoot to improve the neighborhood."
+  },
+  {
+    "word": "Afresh",
+    "pronunciation": "/əˈfreʃ/",
+    "partOfSpeech": "adverb",
+    "definition": "Starting again or anew",
+    "example": "They began the negotiations afresh."
+  },
+  {
+    "word": "Agenda",
+    "pronunciation": "/əˈdʒen.də/",
+    "partOfSpeech": "noun",
+    "definition": "A list or outline of things to be considered or done",
+    "example": "The meeting’s agenda included budget talks."
+  },
+  {
+    "word": "Aggrandize",
+    "pronunciation": "/əˈɡræn.daɪz/",
+    "partOfSpeech": "verb",
+    "definition": "To increase in power, influence, or reputation",
+    "example": "The king sought to aggrandize his kingdom."
+  },
+  {
+    "word": "Aggregate",
+    "pronunciation": ["/ˈæɡ.rɪ.ɡət/ (noun)", "/ˈæɡ.rɪ.ɡeɪt/ (verb, adjective)"],
+    "partOfSpeech": ["noun", "verb", "adjective"],
+    "definition": [
+      "A whole formed by combining several elements",
+      "To collect or gather into a mass",
+      "Formed or calculated by the combination of many separate units"
+    ],
+    "example": "The aggregate score of the two games was 3-2."
+  },
+  {
+    "word": "Aggrieve",
+    "pronunciation": "/əˈɡriːv/",
+    "partOfSpeech": "verb",
+    "definition": "To distress or wrong",
+    "example": "He felt aggrieved by the unfair treatment."
+  },
+  {
+    "word": "Aghast",
+    "pronunciation": "/əˈɡæst/",
+    "partOfSpeech": "adjective",
+    "definition": "Struck with horror or amazement",
+    "example": "She was aghast at the news of the accident."
+  },
+  {
+    "word": "Agile",
+    "pronunciation": "/ˈædʒ.aɪl/",
+    "partOfSpeech": "adjective",
+    "definition": "Able to move quickly and easily",
+    "example": "The cat was agile and quick."
+  },
+  {
+    "word": "Agitate",
+    "pronunciation": "/ˈædʒ.ɪ.teɪt/",
+    "partOfSpeech": "verb",
+    "definition": ["To disturb or upset", "To argue for or against something"],
+    "example": "They agitated for workers' rights."
+  },
+  {
+    "word": "Agnostic",
+    "pronunciation": "/æɡˈnɒs.tɪk/",
+    "partOfSpeech": "noun",
+    "definition": "One who is skeptical about the existence of God",
+    "example": "He identified as an agnostic."
+  },
+  {
+    "word": "Ailment",
+    "pronunciation": "/ˈeɪl.mənt/",
+    "partOfSpeech": "noun",
+    "definition": "An illness or medical condition",
+    "example": "She suffered from a minor ailment."
+  },
+  {
+    "word": "Akin",
+    "pronunciation": "/əˈkɪn/",
+    "partOfSpeech": "adjective",
+    "definition": "Related by blood; similar or related",
+    "example": "His feelings were akin to love."
+  },
+  {
+    "word": "Alacrity",
+    "pronunciation": "/əˈlæk.rɪ.ti/",
+    "partOfSpeech": "noun",
+    "definition": "Eager and enthusiastic willingness",
+    "example": "She accepted the invitation with alacrity."
+  },
+  {
+    "word": "Alias",
+    "pronunciation": "/ˈeɪ.li.əs/",
+    "partOfSpeech": "noun",
+    "definition": "A false or assumed identity",
+    "example": "The criminal used several aliases."
+  },
+  {
+    "word": "Alienate",
+    "pronunciation": "/ˈeɪ.li.ə.neɪt/",
+    "partOfSpeech": "verb",
+    "definition": "To cause someone to feel isolated or estranged",
+    "example": "His rude comments alienated his coworkers."
+  },
+  {
+    "word": "Alleviate",
+    "pronunciation": "/əˈliː.vi.eɪt/",
+    "partOfSpeech": "verb",
+    "definition": "To make something less severe",
+    "example": "The medication helped alleviate the pain."
+  },
+  {
+    "word": "Allude",
+    "pronunciation": "/əˈluːd/",
+    "partOfSpeech": "verb",
+    "definition": "To indirectly refer to something",
+    "example": "She alluded to the problem without naming it."
+  },
+  {
+    "word": "Allure",
+    "pronunciation": "/əˈlʊər/",
+    "partOfSpeech": ["noun", "verb"],
+    "definition": [
+      "The quality of being powerfully attractive",
+      "To attract or entice"
+    ],
+    "example": "The allure of the city drew him in."
+  },
+  {
+    "word": "Allusion",
+    "pronunciation": "/əˈluːʒən/",
+    "partOfSpeech": "noun",
+    "definition": "An indirect or passing reference",
+    "example": "The poem makes allusions to classical mythology."
+  },
+  {
+    "word": "Altruistic",
+    "pronunciation": "/ˌæl.truːˈɪs.tɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Showing a disinterested and selfless concern for the well-being of others",
+    "example": "Her altruistic nature led her to volunteer."
+  },
+  {
+    "word": "Amalgamate",
+    "pronunciation": "/əˈmæl.ɡə.meɪt/",
+    "partOfSpeech": "verb",
+    "definition": "To combine or unite",
+    "example": "The two companies amalgamated into a single entity."
+  },
+  {
+    "word": "Ambiguous",
+    "pronunciation": "/æmˈbɪɡ.ju.əs/",
+    "partOfSpeech": "adjective",
+    "definition": "Open to more than one interpretation; unclear",
+    "example": "The meaning of the poem is ambiguous."
+  },
+  {
+    "word": "Ambivalent",
+    "pronunciation": "/æmˈbɪv.ə.lənt/",
+    "partOfSpeech": "adjective",
+    "definition": "Having mixed feelings or contradictory ideas about something or someone",
+    "example": "She was ambivalent about moving to a new city."
+  },
+  {
+    "word": "Ameliorate",
+    "pronunciation": "/əˈmiː.li.ə.reɪt/",
+    "partOfSpeech": "verb",
+    "definition": "To make something bad or unsatisfactory better",
+    "example": "The new policies ameliorated working conditions."
+  },
+  {
+    "word": "Amenable",
+    "pronunciation": "/əˈmiː.nə.bəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Open and responsive to suggestion; easily persuaded or controlled",
+    "example": "He was amenable to their requests."
+  },
+  {
+    "word": "Amorphous",
+    "pronunciation": "/əˈmɔːr.fəs/",
+    "partOfSpeech": "adjective",
+    "definition": "Without a clearly defined shape or form",
+    "example": "The clouds had an amorphous shape."
+  },
+  {
+    "word": "Anachronism",
+    "pronunciation": "/əˈnæk.rəˌnɪ.zəm/",
+    "partOfSpeech": "noun",
+    "definition": "Something or someone out of place in terms of time",
+    "example": "The sword is an anachronism in modern warfare."
+  },
+  {
+    "word": "Analogy",
+    "pronunciation": "/əˈnæl.ə.dʒi/",
+    "partOfSpeech": "noun",
+    "definition": "A comparison between two things for explanation or clarification",
+    "example": "She made an analogy between the brain and a computer."
+  },
+  {
+    "word": "Anarchy",
+    "pronunciation": "/ˈæn.ɚ.ki/",
+    "partOfSpeech": "noun",
+    "definition": "A state of disorder due to absence of authority",
+    "example": "The collapse of the government led to anarchy."
+  },
+  {
+    "word": "Anathema",
+    "pronunciation": "/əˈnæθ.ə.mə/",
+    "partOfSpeech": "noun",
+    "definition": "Something or someone that one vehemently dislikes",
+    "example": "Lying was anathema to her."
+  },
+  {
+    "word": "Anomaly",
+    "pronunciation": "/əˈnɑː.mə.li/",
+    "partOfSpeech": "noun",
+    "definition": "Something that deviates from what is standard or expected",
+    "example": "The test results showed an anomaly."
+  },
+  {
+    "word": "Antagonism",
+    "pronunciation": "/ænˈtæɡ.ə.nɪ.zəm/",
+    "partOfSpeech": "noun",
+    "definition": "Active hostility or opposition",
+    "example": "There was antagonism between the two groups."
+  },
+  {
+    "word": "Antediluvian",
+    "pronunciation": "/ˌæn.ti.dɪˈluː.vi.ən/",
+    "partOfSpeech": "adjective",
+    "definition": "Extremely old-fashioned",
+    "example": "His ideas were considered antediluvian."
+  },
+  {
+    "word": "Antipathy",
+    "pronunciation": "/ænˈtɪp.ə.θi/",
+    "partOfSpeech": "noun",
+    "definition": "A deep-seated feeling of dislike",
+    "example": "She felt antipathy toward dishonesty."
+  },
+  {
+    "word": "Antithesis",
+    "pronunciation": "/ænˈtɪθ.ə.sɪs/",
+    "partOfSpeech": "noun",
+    "definition": "Direct opposite",
+    "example": "Love is the antithesis of hate."
+  },
+  {
+    "word": "Apathy",
+    "pronunciation": "/ˈæp.ə.θi/",
+    "partOfSpeech": "noun",
+    "definition": "Lack of interest or enthusiasm",
+    "example": "Widespread apathy among voters."
+  },
+  {
+    "word": "Aphorism",
+    "pronunciation": "/ˈæf.ə.rɪ.zəm/",
+    "partOfSpeech": "noun",
+    "definition": "A concise statement expressing a general truth",
+    "example": "He is known for his witty aphorisms."
+  },
+  {
+    "word": "Aplomb",
+    "pronunciation": "/əˈplɒm/",
+    "partOfSpeech": "noun",
+    "definition": "Self-confidence or assurance, especially under pressure",
+    "example": "She handled the crisis with aplomb."
+  },
+  {
+    "word": "Apocryphal",
+    "pronunciation": "/əˈpɒk.rɪ.fəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Of doubtful authenticity",
+    "example": "An apocryphal story about the mayor."
+  },
+  {
+    "word": "Appall",
+    "pronunciation": "/əˈpɔːl/",
+    "partOfSpeech": "verb",
+    "definition": "To horrify or shock",
+    "example": "The cruelty appalled everyone."
+  },
+  {
+    "word": "Appease",
+    "pronunciation": "/əˈpiːz/",
+    "partOfSpeech": "verb",
+    "definition": "To calm or pacify, especially by giving in to demands",
+    "example": "They appeased the protesters with concessions."
+  },
+  {
+    "word": "Approbation",
+    "pronunciation": "/ˌæp.rəˈbeɪ.ʃən/",
+    "partOfSpeech": "noun",
+    "definition": "Approval or praise",
+    "example": "The proposal received approbation from the committee."
+  },
+  {
+    "word": "Arbitrary",
+    "pronunciation": "/ˈɑːr.bɪ.trer.i/",
+    "partOfSpeech": "adjective",
+    "definition": "Based on random choice or personal whim",
+    "example": "The decision seemed arbitrary."
+  },
+  {
+    "word": "Arcane",
+    "pronunciation": "/ɑːrˈkeɪn/",
+    "partOfSpeech": "adjective",
+    "definition": "Known or understood by few; mysterious",
+    "example": "He has an arcane knowledge of the law."
+  },
+  {
+    "word": "Archaic",
+    "pronunciation": "/ɑːrˈkeɪ.ɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Old-fashioned or outdated",
+    "example": "The museum displayed archaic tools."
+  },
+  {
+    "word": "Ardor",
+    "pronunciation": "/ˈɑːr.dər/",
+    "partOfSpeech": "noun",
+    "definition": "Enthusiasm or passion",
+    "example": "She spoke with ardor about her work."
+  },
+  {
+    "word": "Arduous",
+    "pronunciation": "/ˈɑːr.dʒu.əs/",
+    "partOfSpeech": "adjective",
+    "definition": "Involving or requiring strenuous effort",
+    "example": "An arduous climb to the summit."
+  },
+  {
+    "word": "Artful",
+    "pronunciation": "/ˈɑːrt.fəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Clever or skillful, especially in a cunning way",
+    "example": "An artful negotiator."
+  },
+  {
+    "word": "Articulate",
+    "pronunciation": "/ɑːrˈtɪk.jə.leɪt/",
+    "partOfSpeech": ["adjective", "verb"],
+    "definition": [
+      "Expressing oneself clearly",
+      "To express clearly in speech"
+    ],
+    "example": "She is an articulate speaker."
+  },
+  {
+    "word": "Artifice",
+    "pronunciation": "/ˈɑːr.tɪ.fɪs/",
+    "partOfSpeech": "noun",
+    "definition": "Clever or cunning devices or expedients, especially to trick or deceive",
+    "example": "The magician's artifice amazed the audience."
+  },
+  {
+    "word": "Artless",
+    "pronunciation": "/ˈɑːrt.ləs/",
+    "partOfSpeech": "adjective",
+    "definition": "Without guile or deception; natural and simple",
+    "example": "Her artless charm won everyone over."
+  },
+  {
+    "word": "Ascetic",
+    "pronunciation": "/əˈset.ɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Practicing strict self-denial as a spiritual discipline",
+    "example": "He lived an ascetic life of solitude."
+  },
+  {
+    "word": "Aspersion",
+    "pronunciation": "/əˈspɜːr.ʒən/",
+    "partOfSpeech": "noun",
+    "definition": "An attack on the reputation or integrity of someone or something",
+    "example": "They cast aspersions on her honesty."
+  },
+  {
+    "word": "Assiduous",
+    "pronunciation": "/əˈsɪdʒ.u.əs/",
+    "partOfSpeech": "adjective",
+    "definition": "Showing great care and perseverance",
+    "example": "She was assiduous in her studies."
+  },
+  {
+    "word": "Assuage",
+    "pronunciation": "/əˈsweɪdʒ/",
+    "partOfSpeech": "verb",
+    "definition": "To make an unpleasant feeling less intense",
+    "example": "He tried to assuage his guilt."
+  },
+  {
+    "word": "Astute",
+    "pronunciation": "/əˈstjuːt/",
+    "partOfSpeech": "adjective",
+    "definition": "Having or showing an ability to accurately assess situations and turn them to one's advantage",
+    "example": "An astute businessman."
+  },
+  {
+    "word": "Atrophy",
+    "pronunciation": "/ˈæt.rə.fi/",
+    "partOfSpeech": ["noun", "verb"],
+    "definition": ["The wasting away of body tissue", "To waste away"],
+    "example": "Muscle atrophy can occur from lack of exercise."
+  },
+  {
+    "word": "Attenuate",
+    "pronunciation": "/əˈten.ju.eɪt/",
+    "partOfSpeech": "verb",
+    "definition": "To reduce the force or effect of something",
+    "example": "The medicine attenuated the severity of symptoms."
+  },
+  {
+    "word": "Audacious",
+    "pronunciation": "/ɔːˈdeɪ.ʃəs/",
+    "partOfSpeech": "adjective",
+    "definition": "Showing a willingness to take bold risks",
+    "example": "An audacious plan."
+  },
+  {
+    "word": "Augment",
+    "pronunciation": "/ɔːɡˈment/",
+    "partOfSpeech": "verb",
+    "definition": "To make something greater by adding to it",
+    "example": "He augmented his income with a part-time job."
+  },
+  {
+    "word": "August",
+    "pronunciation": "/ɔːˈɡʌst/",
+    "partOfSpeech": "adjective",
+    "definition": "Respected and impressive",
+    "example": "An august institution."
+  },
+  {
+    "word": "Auspicious",
+    "pronunciation": "/ɔːˈspɪʃ.əs/",
+    "partOfSpeech": "adjective",
+    "definition": "Conducive to success; favorable",
+    "example": "An auspicious start to the campaign."
+  },
+  {
+    "word": "Austere",
+    "pronunciation": "/ɔːˈstɪər/",
+    "partOfSpeech": "adjective",
+    "definition": [
+      "Severe or strict in manner",
+      "Having no comforts or luxuries"
+    ],
+    "example": "An austere lifestyle."
+  },
+  {
+    "word": "Autonomous",
+    "pronunciation": "/ɔːˈtɒn.ə.məs/",
+    "partOfSpeech": "adjective",
+    "definition": "Having self-government",
+    "example": "An autonomous region."
+  },
+  {
+    "word": "Avarice",
+    "pronunciation": "/ˈæv.ər.ɪs/",
+    "partOfSpeech": "noun",
+    "definition": "Extreme greed for wealth or material gain",
+    "example": "His life was consumed by avarice."
+  },
+  {
+    "word": "Averse",
+    "pronunciation": "/əˈvɜːs/",
+    "partOfSpeech": "adjective",
+    "definition": "Having a strong dislike or opposition to something",
+    "example": "She was averse to taking risks."
+  },
+  {
+    "word": "Avid",
+    "pronunciation": "/ˈæv.ɪd/",
+    "partOfSpeech": "adjective",
+    "definition": "Having or showing an eager desire or interest",
+    "example": "An avid reader."
+  },
+  {
+    "word": "Avow",
+    "pronunciation": "/əˈvaʊ/",
+    "partOfSpeech": "verb",
+    "definition": "To assert or confess openly",
+    "example": "He avowed his love for her."
+  },
+  {
+    "word": "Awe",
+    "pronunciation": "/ɔː/",
+    "partOfSpeech": "noun",
+    "definition": "A feeling of reverential respect mixed with fear or wonder",
+    "example": "They gazed in awe at the mountains."
+  },
+  {
+    "word": "Awry",
+    "pronunciation": "/əˈraɪ/",
+    "partOfSpeech": "adjective",
+    "definition": "Away from the appropriate or expected course; amiss",
+    "example": "Plans went awry due to the storm."
+  },
+  {
+    "word": "Axiom",
+    "pronunciation": "/ˈæk.si.əm/",
+    "partOfSpeech": "noun",
+    "definition": "A self-evident or universally accepted truth",
+    "example": "The axiom that all men are created equal."
+  },
+  {
+    "word": "Banal",
+    "pronunciation": "/bəˈnɑːl/",
+    "partOfSpeech": "adjective",
+    "definition": "Lacking originality; boringly predictable",
+    "example": "The plot was banal and unoriginal."
+  },
+  {
+    "word": "Bane",
+    "pronunciation": "/beɪn/",
+    "partOfSpeech": "noun",
+    "definition": "A cause of great distress or annoyance",
+    "example": "The bane of her existence was traffic jams."
+  },
+  {
+    "word": "Beguile",
+    "pronunciation": "/bɪˈɡaɪl/",
+    "partOfSpeech": "verb",
+    "definition": "To charm or enchant, often in a deceptive way",
+    "example": "He beguiled the audience with his storytelling."
+  },
+  {
+    "word": "Belie",
+    "pronunciation": "/bɪˈlaɪ/",
+    "partOfSpeech": "verb",
+    "definition": "To give a false impression of; to show to be false",
+    "example": "His calm face belied his true feelings."
+  },
+  {
+    "word": "Bellicose",
+    "pronunciation": "/ˈbel.ɪ.koʊs/",
+    "partOfSpeech": "adjective",
+    "definition": "Demonstrating aggression or willingness to fight",
+    "example": "A bellicose leader eager for war."
+  },
+  {
+    "word": "Benevolent",
+    "pronunciation": "/bəˈnev.əl.ənt/",
+    "partOfSpeech": "adjective",
+    "definition": "Well-meaning and kindly",
+    "example": "A benevolent donor."
+  },
+  {
+    "word": "Benign",
+    "pronunciation": "/bɪˈnaɪn/",
+    "partOfSpeech": "adjective",
+    "definition": ["Gentle and kind", "Not harmful in effect"],
+    "example": "A benign influence."
+  },
+  {
+    "word": "Bequeath",
+    "pronunciation": "/bɪˈkwiːð/",
+    "partOfSpeech": "verb",
+    "definition": "To leave property to a person or beneficiary by a will",
+    "example": "She bequeathed her estate to her nephew."
+  },
+  {
+    "word": "Berate",
+    "pronunciation": "/bɪˈreɪt/",
+    "partOfSpeech": "verb",
+    "definition": "To scold angrily",
+    "example": "He berated the staff for their mistakes."
+  },
+  {
+    "word": "Blatant",
+    "pronunciation": "/ˈbleɪ.tənt/",
+    "partOfSpeech": "adjective",
+    "definition": "Completely lacking in subtlety; obvious",
+    "example": "A blatant lie."
+  },
+  {
+    "word": "Blight",
+    "pronunciation": "/blaɪt/",
+    "partOfSpeech": "noun",
+    "definition": "Anything that destroys, prevents growth, or causes devaluation",
+    "example": "The abandoned factory was a blight on the town."
+  },
+  {
+    "word": "Blithe",
+    "pronunciation": "/blaɪð/",
+    "partOfSpeech": "adjective",
+    "definition": "Showing a casual or cheerful indifference considered improper",
+    "example": "He had a blithe disregard for the rules."
+  },
+  {
+    "word": "Bolster",
+    "pronunciation": "/ˈboʊl.stər/",
+    "partOfSpeech": "verb",
+    "definition": "To support or strengthen",
+    "example": "She bolstered her argument with facts."
+  },
+  {
+    "word": "Bombastic",
+    "pronunciation": "/bɒmˈbæs.tɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "High-sounding but with little meaning; inflated",
+    "example": "His bombastic speech failed to impress."
+  },
+  {
+    "word": "Boorish",
+    "pronunciation": "/ˈbʊr.ɪʃ/",
+    "partOfSpeech": "adjective",
+    "definition": "Rough and bad-mannered",
+    "example": "He apologized for his boorish behavior."
+  },
+  {
+    "word": "Breach",
+    "pronunciation": "/briːtʃ/",
+    "partOfSpeech": "noun",
+    "definition": "An act of breaking a law or agreement",
+    "example": "There was a security breach at the bank."
+  },
+  {
+    "word": "Brevity",
+    "pronunciation": "/ˈbrev.ɪ.ti/",
+    "partOfSpeech": "noun",
+    "definition": "Concise and exact use of words",
+    "example": "The essay is valued for its brevity."
+  },
+  {
+    "word": "Bucolic",
+    "pronunciation": "/bjuːˈkɒl.ɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to the pleasant aspects of the countryside",
+    "example": "A bucolic scene."
+  },
+  {
+    "word": "Buffoon",
+    "pronunciation": "/bəˈfuːn/",
+    "partOfSpeech": "noun",
+    "definition": "A ridiculous but amusing person; a clown",
+    "example": "He acted like a buffoon at the party."
+  },
+  {
+    "word": "Bulwark",
+    "pronunciation": "/ˈbʊl.wərk/",
+    "partOfSpeech": "noun",
+    "definition": "A defensive wall; something serving as protection",
+    "example": "The soldiers built a bulwark against the invaders."
+  },
+  {
+    "word": "Burnish",
+    "pronunciation": "/ˈbɜːr.nɪʃ/",
+    "partOfSpeech": "verb",
+    "definition": "To polish by rubbing",
+    "example": "She burnished the silver until it shone."
+  },
+  {
+    "word": "Buttress",
+    "pronunciation": "/ˈbʌt.rɪs/",
+    "partOfSpeech": ["noun", "verb"],
+    "definition": ["A structure built for support", "To reinforce or support"],
+    "example": "They used data to buttress their argument."
+  },
+  {
+    "word": "Byzantine",
+    "pronunciation": "/ˈbɪz.ən.taɪn/",
+    "partOfSpeech": "adjective",
+    "definition": "Excessively complex",
+    "example": "The legal process is Byzantine."
+  },
+  {
+    "word": "Cacophony",
+    "pronunciation": "/kəˈkɒf.ə.ni/",
+    "partOfSpeech": "noun",
+    "definition": "A harsh mixture of sounds",
+    "example": "A cacophony of car horns."
+  },
+  {
+    "word": "Cadence",
+    "pronunciation": "/ˈkeɪ.dəns/",
+    "partOfSpeech": "noun",
+    "definition": "A modulation or inflection of the voice",
+    "example": "The cadence of her speech mesmerized the audience."
+  },
+  {
+    "word": "Calamity",
+    "pronunciation": "/kəˈlæm.ɪ.ti/",
+    "partOfSpeech": "noun",
+    "definition": "A disaster; an event causing great and sudden damage",
+    "example": "Floods can be a national calamity."
+  },
+  {
+    "word": "Callous",
+    "pronunciation": "/ˈkæl.əs/",
+    "partOfSpeech": "adjective",
+    "definition": "Showing or having an insensitive disregard for others",
+    "example": "A callous attitude toward the poor."
+  },
+  {
+    "word": "Calumny",
+    "pronunciation": "/ˈkæl.əm.ni/",
+    "partOfSpeech": "noun",
+    "definition": "The making of false statements to damage someone’s reputation",
+    "example": "He was the victim of calumny."
+  },
+  {
+    "word": "Candor",
+    "pronunciation": "/ˈkæn.dər/",
+    "partOfSpeech": "noun",
+    "definition": "The quality of being open and honest",
+    "example": "She spoke with candor about the difficulties."
+  },
+  {
+    "word": "Capitulate",
+    "pronunciation": "/kəˈpɪt.ju.leɪt/",
+    "partOfSpeech": "verb",
+    "definition": "To cease to resist; surrender",
+    "example": "The army was forced to capitulate."
+  },
+  {
+    "word": "Capricious",
+    "pronunciation": "/kəˈprɪʃ.əs/",
+    "partOfSpeech": "adjective",
+    "definition": "Given to sudden changes of mood or behavior",
+    "example": "A capricious boss."
+  },
+  {
+    "word": "Captious",
+    "pronunciation": "/ˈkæp.ʃəs/",
+    "partOfSpeech": "adjective",
+    "definition": "Tending to find fault or raise petty objections",
+    "example": "He was in a captious mood."
+  },
+  {
+    "word": "Cardinal",
+    "pronunciation": "/ˈkɑːr.dɪ.nəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Of the greatest importance; fundamental",
+    "example": "Respect is a cardinal rule."
+  },
+  {
+    "word": "Caricature",
+    "pronunciation": "/ˈkær.ɪ.kə.tʃʊr/",
+    "partOfSpeech": "noun",
+    "definition": "A grotesque or exaggerated representation",
+    "example": "A caricature of the politician appeared in the paper."
+  },
+  {
+    "word": "Castigate",
+    "pronunciation": "/ˈkæs.tɪ.ɡeɪt/",
+    "partOfSpeech": "verb",
+    "definition": "To reprimand severely",
+    "example": "The author was castigated for plagiarism."
+  },
+  {
+    "word": "Catalyst",
+    "pronunciation": "/ˈkæt.ə.lɪst/",
+    "partOfSpeech": "noun",
+    "definition": "Something that speeds up a process or causes an event",
+    "example": "Their support served as a catalyst for change."
+  },
+  {
+    "word": "Cataract",
+    "pronunciation": "/ˈkæt.ə.rækt/",
+    "partOfSpeech": "noun",
+    "definition": [
+      "A large waterfall",
+      "A medical condition causing clouding of the lens of the eye"
+    ],
+    "example": "The explorer admired the powerful cataract."
+  },
+  {
+    "word": "Caustic",
+    "pronunciation": "/ˈkɔː.stɪk/",
+    "partOfSpeech": "adjective",
+    "definition": ["Able to burn or corrode", "Sarcastic in a scathing way"],
+    "example": "She made a caustic remark."
+  },
+  {
+    "word": "Censure",
+    "pronunciation": "/ˈsen.ʃər/",
+    "partOfSpeech": "verb",
+    "definition": "To express strong disapproval",
+    "example": "The board censured the employee's actions."
+  },
+  {
+    "word": "Cerebral",
+    "pronunciation": "/səˈriː.brəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Intellectual rather than emotional or physical",
+    "example": "A cerebral approach to problem-solving."
+  },
+  {
+    "word": "Chagrin",
+    "pronunciation": "/ʃəˈɡrɪn/",
+    "partOfSpeech": "noun",
+    "definition": "Distress or embarrassment at having failed",
+    "example": "To his chagrin, the plan failed."
+  },
+  {
+    "word": "Chary",
+    "pronunciation": "/ˈtʃɛr.i/",
+    "partOfSpeech": "adjective",
+    "definition": "Cautiously or suspiciously reluctant to do something",
+    "example": "She is chary of being too outspoken."
+  },
+  {
+    "word": "Chastise",
+    "pronunciation": "/tʃæsˈtaɪz/",
+    "partOfSpeech": "verb",
+    "definition": "To scold or punish severely",
+    "example": "The coach chastised the players for laziness."
+  },
+  {
+    "word": "Chicanery",
+    "pronunciation": "/ʃɪˈkeɪ.nə.ri/",
+    "partOfSpeech": "noun",
+    "definition": "The use of trickery to achieve a political, financial, or legal purpose",
+    "example": "He resorted to chicanery to win the contract."
+  },
+  {
+    "word": "Choleric",
+    "pronunciation": "/ˈkɒl.ər.ɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Easily angered; irritable",
+    "example": "A choleric disposition."
+  },
+  {
+    "word": "Churlish",
+    "pronunciation": "/ˈtʃɜːr.lɪʃ/",
+    "partOfSpeech": "adjective",
+    "definition": "Rude in a mean-spirited way",
+    "example": "He made a churlish reply."
+  },
+  {
+    "word": "Circuitous",
+    "pronunciation": "/sɜːrˈkjuː.ɪ.t̬əs/",
+    "partOfSpeech": "adjective",
+    "definition": "Longer than the most direct way",
+    "example": "We took a circuitous route home."
+  },
+  {
+    "word": "Circumlocution",
+    "pronunciation": "/ˌsɜːr.kəm.loʊˈkjuː.ʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The use of many words to say something that could be said more clearly with fewer words",
+    "example": "His answer was full of circumlocution."
+  },
+  {
+    "word": "Circumscribe",
+    "pronunciation": "/ˈsɜːr.kəm.skraɪb/",
+    "partOfSpeech": "verb",
+    "definition": "To restrict within limits",
+    "example": "The law circumscribes the power of the president."
+  },
+  {
+    "word": "Circumspect",
+    "pronunciation": "/ˈsɜːr.kəm.spekt/",
+    "partOfSpeech": "adjective",
+    "definition": "Wary and unwilling to take risks",
+    "example": "The investor made a circumspect decision."
+  },
+  {
+    "word": "Clandestine",
+    "pronunciation": "/klænˈdes.tɪn/",
+    "partOfSpeech": "adjective",
+    "definition": "Kept secret or done secretly",
+    "example": "The agents held a clandestine meeting."
+  },
+  {
+    "word": "Clamor",
+    "pronunciation": "/ˈklæm.ər/",
+    "partOfSpeech": "noun",
+    "definition": "A loud and confused noise, often from a crowd",
+    "example": "The clamor from the protesters was deafening."
+  },
+  {
+    "word": "Clandestine",
+    "pronunciation": "/klænˈdes.tɪn/",
+    "partOfSpeech": "adjective",
+    "definition": "Kept secret, especially for an illicit purpose",
+    "example": "They held a clandestine meeting."
+  },
+  {
+    "word": "Clarity",
+    "pronunciation": "/ˈklær.ə.ti/",
+    "partOfSpeech": "noun",
+    "definition": "Clearness and lucidity in expression",
+    "example": "The instructions were given with clarity."
+  },
+  {
+    "word": "Clout",
+    "pronunciation": "/klaʊt/",
+    "partOfSpeech": "noun",
+    "definition": "Influence or power, especially in politics",
+    "example": "He has clout in the industry."
+  },
+  {
+    "word": "Coalesce",
+    "pronunciation": "/ˌkoʊ.əˈles/",
+    "partOfSpeech": "verb",
+    "definition": "To come together and form one mass or whole",
+    "example": "Several groups coalesced to form a new party."
+  },
+  {
+    "word": "Coda",
+    "pronunciation": "/ˈkoʊ.də/",
+    "partOfSpeech": "noun",
+    "definition": "A concluding event, remark, or section",
+    "example": "The final chapter is a fitting coda to the book."
+  },
+  {
+    "word": "Cogent",
+    "pronunciation": "/ˈkoʊ.dʒənt/",
+    "partOfSpeech": "adjective",
+    "definition": "Clear, logical, and convincing",
+    "example": "She made a cogent argument."
+  },
+  {
+    "word": "Cogitate",
+    "pronunciation": "/ˈkɑː.dʒə.teɪt/",
+    "partOfSpeech": "verb",
+    "definition": "To think deeply about something; meditate or reflect",
+    "example": "He cogitated on the meaning of life."
+  },
+  {
+    "word": "Coherent",
+    "pronunciation": "/koʊˈhɪr.ənt/",
+    "partOfSpeech": "adjective",
+    "definition": "Logical and consistent",
+    "example": "The essay is clear and coherent."
+  },
+  {
+    "word": "Commend",
+    "pronunciation": "/kəˈmend/",
+    "partOfSpeech": "verb",
+    "definition": "To praise formally or officially",
+    "example": "She was commended for her bravery."
+  },
+  {
+    "word": "Commensurate",
+    "pronunciation": "/kəˈmen.sjər.ət/",
+    "partOfSpeech": "adjective",
+    "definition": "Corresponding in size or degree",
+    "example": "The salary is commensurate with experience."
+  },
+  {
+    "word": "Compendium",
+    "pronunciation": "/kəmˈpen.di.əm/",
+    "partOfSpeech": "noun",
+    "definition": "A collection of concise but detailed information about a subject",
+    "example": "A compendium of math formulas."
+  },
+  {
+    "word": "Complement",
+    "pronunciation": "/ˈkɑːm.plə.ment/",
+    "partOfSpeech": "noun",
+    "definition": "A thing that completes or brings to perfection",
+    "example": "Rice is a complement to curry."
+  },
+  {
+    "word": "Compliant",
+    "pronunciation": "/kəmˈplaɪ.ənt/",
+    "partOfSpeech": "adjective",
+    "definition": "Inclined to agree with others or obey rules",
+    "example": "The company was compliant with new regulations."
+  },
+  {
+    "word": "Conciliate",
+    "pronunciation": "/kənˈsɪl.i.eɪt/",
+    "partOfSpeech": "verb",
+    "definition": "To stop someone from being angry; to placate or pacify",
+    "example": "He tried to conciliate his critics."
+  },
+  {
+    "word": "Concise",
+    "pronunciation": "/kənˈsaɪs/",
+    "partOfSpeech": "adjective",
+    "definition": "Giving a lot of information clearly and in a few words; brief",
+    "example": "A concise summary."
+  },
+  {
+    "word": "Concur",
+    "pronunciation": "/kənˈkɜːr/",
+    "partOfSpeech": "verb",
+    "definition": "To agree",
+    "example": "Historians concur that the war ended in 1945."
+  },
+  {
+    "word": "Condone",
+    "pronunciation": "/kənˈdoʊn/",
+    "partOfSpeech": "verb",
+    "definition": "To accept or allow behavior that is morally wrong",
+    "example": "The teacher cannot condone cheating."
+  },
+  {
+    "word": "Conducive",
+    "pronunciation": "/kənˈduː.sɪv/",
+    "partOfSpeech": "adjective",
+    "definition": "Making a certain situation or outcome likely or possible",
+    "example": "A quiet room is conducive to studying."
+  },
+  {
+    "word": "Confound",
+    "pronunciation": "/kənˈfaʊnd/",
+    "partOfSpeech": "verb",
+    "definition": "To cause surprise or confusion",
+    "example": "His sudden departure confounded us."
+  },
+  {
+    "word": "Connoisseur",
+    "pronunciation": "/ˌkɒn.əˈsɜːr/",
+    "partOfSpeech": "noun",
+    "definition": "An expert judge in matters of taste",
+    "example": "A connoisseur of fine art."
+  },
+  {
+    "word": "Conspicuous",
+    "pronunciation": "/kənˈspɪk.ju.əs/",
+    "partOfSpeech": "adjective",
+    "definition": "Clearly visible; attracting attention",
+    "example": "She felt conspicuous in her bright dress."
+  },
+  {
+    "word": "Consternation",
+    "pronunciation": "/ˌkɑːn.stɚˈneɪ.ʃən/",
+    "partOfSpeech": "noun",
+    "definition": "Feelings of anxiety or dismay",
+    "example": "The announcement caused consternation."
+  },
+  {
+    "word": "Constrain",
+    "pronunciation": "/kənˈstreɪn/",
+    "partOfSpeech": "verb",
+    "definition": "To severely restrict the scope or activity of",
+    "example": "His finances constrain his options."
+  },
+  {
+    "word": "Construe",
+    "pronunciation": "/kənˈstruː/",
+    "partOfSpeech": "verb",
+    "definition": "To interpret or analyze",
+    "example": "His words could be construed as criticism."
+  },
+  {
+    "word": "Contend",
+    "pronunciation": "/kənˈtend/",
+    "partOfSpeech": "verb",
+    "definition": "Struggle to surmount; assert as an argument",
+    "example": "He contends that the policy is unfair."
+  },
+  {
+    "word": "Bequeath",
+    "pronunciation": "/bɪˈkwiːð/",
+    "partOfSpeech": "verb",
+    "definition": "To leave property to a person or beneficiary by a will",
+    "example": "She bequeathed her estate to her nephew."
+  },
+  {
+    "word": "Berate",
+    "pronunciation": "/bɪˈreɪt/",
+    "partOfSpeech": "verb",
+    "definition": "To scold angrily",
+    "example": "He berated the staff for their mistakes."
+  },
+  {
+    "word": "Blatant",
+    "pronunciation": "/ˈbleɪ.tənt/",
+    "partOfSpeech": "adjective",
+    "definition": "Completely lacking in subtlety; obvious",
+    "example": "A blatant lie."
+  },
+  {
+    "word": "Blight",
+    "pronunciation": "/blaɪt/",
+    "partOfSpeech": "noun",
+    "definition": "Anything that destroys, prevents growth, or causes devaluation",
+    "example": "The abandoned factory was a blight on the town."
+  },
+  {
+    "word": "Blithe",
+    "pronunciation": "/blaɪð/",
+    "partOfSpeech": "adjective",
+    "definition": "Showing a casual or cheerful indifference considered improper",
+    "example": "He had a blithe disregard for the rules."
+  },
+  {
+    "word": "Bolster",
+    "pronunciation": "/ˈboʊl.stər/",
+    "partOfSpeech": "verb",
+    "definition": "To support or strengthen",
+    "example": "She bolstered her argument with facts."
+  },
+  {
+    "word": "Bombastic",
+    "pronunciation": "/bɒmˈbæs.tɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "High-sounding but with little meaning; inflated",
+    "example": "His bombastic speech failed to impress."
+  },
+  {
+    "word": "Boorish",
+    "pronunciation": "/ˈbʊr.ɪʃ/",
+    "partOfSpeech": "adjective",
+    "definition": "Rough and bad-mannered",
+    "example": "He apologized for his boorish behavior."
+  },
+  {
+    "word": "Breach",
+    "pronunciation": "/briːtʃ/",
+    "partOfSpeech": "noun",
+    "definition": "An act of breaking a law or agreement",
+    "example": "There was a security breach at the bank."
+  },
+  {
+    "word": "Brevity",
+    "pronunciation": "/ˈbrev.ɪ.ti/",
+    "partOfSpeech": "noun",
+    "definition": "Concise and exact use of words",
+    "example": "The essay is valued for its brevity."
+  },
+  {
+    "word": "Bucolic",
+    "pronunciation": "/bjuːˈkɒl.ɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to the pleasant aspects of the countryside",
+    "example": "A bucolic scene."
+  },
+  {
+    "word": "Buffoon",
+    "pronunciation": "/bəˈfuːn/",
+    "partOfSpeech": "noun",
+    "definition": "A ridiculous but amusing person; a clown",
+    "example": "He acted like a buffoon at the party."
+  },
+  {
+    "word": "Bulwark",
+    "pronunciation": "/ˈbʊl.wərk/",
+    "partOfSpeech": "noun",
+    "definition": "A defensive wall; something serving as protection",
+    "example": "The soldiers built a bulwark against the invaders."
+  },
+  {
+    "word": "Burnish",
+    "pronunciation": "/ˈbɜːr.nɪʃ/",
+    "partOfSpeech": "verb",
+    "definition": "To polish by rubbing",
+    "example": "She burnished the silver until it shone."
+  },
+  {
+    "word": "Buttress",
+    "pronunciation": "/ˈbʌt.rɪs/",
+    "partOfSpeech": ["noun", "verb"],
+    "definition": ["A structure built for support", "To reinforce or support"],
+    "example": "They used data to buttress their argument."
+  },
+  {
+    "word": "Byzantine",
+    "pronunciation": "/ˈbɪz.ən.taɪn/",
+    "partOfSpeech": "adjective",
+    "definition": "Excessively complex",
+    "example": "The legal process is Byzantine."
+  },
+  {
+    "word": "Cacophony",
+    "pronunciation": "/kəˈkɒf.ə.ni/",
+    "partOfSpeech": "noun",
+    "definition": "A harsh mixture of sounds",
+    "example": "A cacophony of car horns."
+  },
+  {
+    "word": "Cadence",
+    "pronunciation": "/ˈkeɪ.dəns/",
+    "partOfSpeech": "noun",
+    "definition": "A modulation or inflection of the voice",
+    "example": "The cadence of her speech mesmerized the audience."
+  },
+  {
+    "word": "Calamity",
+    "pronunciation": "/kəˈlæm.ɪ.ti/",
+    "partOfSpeech": "noun",
+    "definition": "A disaster; an event causing great and sudden damage",
+    "example": "Floods can be a national calamity."
+  },
+  {
+    "word": "Callous",
+    "pronunciation": "/ˈkæl.əs/",
+    "partOfSpeech": "adjective",
+    "definition": "Showing or having an insensitive disregard for others",
+    "example": "A callous attitude toward the poor."
+  },
+  {
+    "word": "Calumny",
+    "pronunciation": "/ˈkæl.əm.ni/",
+    "partOfSpeech": "noun",
+    "definition": "The making of false statements to damage someone’s reputation",
+    "example": "He was the victim of calumny."
+  },
+  {
+    "word": "Candor",
+    "pronunciation": "/ˈkæn.dər/",
+    "partOfSpeech": "noun",
+    "definition": "The quality of being open and honest",
+    "example": "She spoke with candor about the difficulties."
+  },
+  {
+    "word": "Capitulate",
+    "pronunciation": "/kəˈpɪt.ju.leɪt/",
+    "partOfSpeech": "verb",
+    "definition": "To cease to resist; surrender",
+    "example": "The army was forced to capitulate."
+  },
+  {
+    "word": "Capricious",
+    "pronunciation": "/kəˈprɪʃ.əs/",
+    "partOfSpeech": "adjective",
+    "definition": "Given to sudden changes of mood or behavior",
+    "example": "A capricious boss."
+  },
+  {
+    "word": "Captious",
+    "pronunciation": "/ˈkæp.ʃəs/",
+    "partOfSpeech": "adjective",
+    "definition": "Tending to find fault or raise petty objections",
+    "example": "He was in a captious mood."
+  },
+  {
+    "word": "Cardinal",
+    "pronunciation": "/ˈkɑːr.dɪ.nəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Of the greatest importance; fundamental",
+    "example": "Respect is a cardinal rule."
+  },
+  {
+    "word": "Caricature",
+    "pronunciation": "/ˈkær.ɪ.kə.tʃʊr/",
+    "partOfSpeech": "noun",
+    "definition": "A grotesque or exaggerated representation",
+    "example": "A caricature of the politician appeared in the paper."
+  },
+  {
+    "word": "Castigate",
+    "pronunciation": "/ˈkæs.tɪ.ɡeɪt/",
+    "partOfSpeech": "verb",
+    "definition": "To reprimand severely",
+    "example": "The author was castigated for plagiarism."
+  },
+  {
+    "word": "Catalyst",
+    "pronunciation": "/ˈkæt.ə.lɪst/",
+    "partOfSpeech": "noun",
+    "definition": "Something that speeds up a process or causes an event",
+    "example": "Their support served as a catalyst for change."
+  },
+  {
+    "word": "Cataract",
+    "pronunciation": "/ˈkæt.ə.rækt/",
+    "partOfSpeech": "noun",
+    "definition": [
+      "A large waterfall",
+      "A medical condition causing clouding of the lens of the eye"
+    ],
+    "example": "The explorer admired the powerful cataract."
+  },
+  {
+    "word": "Caustic",
+    "pronunciation": "/ˈkɔː.stɪk/",
+    "partOfSpeech": "adjective",
+    "definition": ["Able to burn or corrode", "Sarcastic in a scathing way"],
+    "example": "She made a caustic remark."
+  },
+  {
+    "word": "Censure",
+    "pronunciation": "/ˈsen.ʃər/",
+    "partOfSpeech": "verb",
+    "definition": "To express strong disapproval",
+    "example": "The board censured the employee's actions."
+  },
+  {
+    "word": "Cerebral",
+    "pronunciation": "/səˈriː.brəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Intellectual rather than emotional or physical",
+    "example": "A cerebral approach to problem-solving."
+  },
+  {
+    "word": "Chagrin",
+    "pronunciation": "/ʃəˈɡrɪn/",
+    "partOfSpeech": "noun",
+    "definition": "Distress or embarrassment at having failed",
+    "example": "To his chagrin, the plan failed."
+  },
+  {
+    "word": "Chary",
+    "pronunciation": "/ˈtʃɛr.i/",
+    "partOfSpeech": "adjective",
+    "definition": "Cautiously or suspiciously reluctant to do something",
+    "example": "She is chary of being too outspoken."
+  },
+  {
+    "word": "Chastise",
+    "pronunciation": "/tʃæsˈtaɪz/",
+    "partOfSpeech": "verb",
+    "definition": "To scold or punish severely",
+    "example": "The coach chastised the players for laziness."
+  },
+  {
+    "word": "Chicanery",
+    "pronunciation": "/ʃɪˈkeɪ.nə.ri/",
+    "partOfSpeech": "noun",
+    "definition": "The use of trickery to achieve a political, financial, or legal purpose",
+    "example": "He resorted to chicanery to win the contract."
+  },
+  {
+    "word": "Choleric",
+    "pronunciation": "/ˈkɒl.ər.ɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Easily angered; irritable",
+    "example": "A choleric disposition."
+  },
+  {
+    "word": "Churlish",
+    "pronunciation": "/ˈtʃɜːr.lɪʃ/",
+    "partOfSpeech": "adjective",
+    "definition": "Rude in a mean-spirited way",
+    "example": "He made a churlish reply."
+  },
+  {
+    "word": "Circuitous",
+    "pronunciation": "/sɜːrˈkjuː.ɪ.t̬əs/",
+    "partOfSpeech": "adjective",
+    "definition": "Longer than the most direct way",
+    "example": "We took a circuitous route home."
+  },
+  {
+    "word": "Circumlocution",
+    "pronunciation": "/ˌsɜːr.kəm.loʊˈkjuː.ʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The use of many words to say something that could be said more clearly with fewer words",
+    "example": "His answer was full of circumlocution."
+  },
+  {
+    "word": "Circumscribe",
+    "pronunciation": "/ˈsɜːr.kəm.skraɪb/",
+    "partOfSpeech": "verb",
+    "definition": "To restrict within limits",
+    "example": "The law circumscribes the power of the president."
+  },
+  {
+    "word": "Circumspect",
+    "pronunciation": "/ˈsɜːr.kəm.spekt/",
+    "partOfSpeech": "adjective",
+    "definition": "Wary and unwilling to take risks",
+    "example": "The investor made a circumspect decision."
+  },
+  {
+    "word": "Clandestine",
+    "pronunciation": "/klænˈdes.tɪn/",
+    "partOfSpeech": "adjective",
+    "definition": "Kept secret or done secretly",
+    "example": "The agents held a clandestine meeting."
+  },
+  {
+    "word": "Clamor",
+    "pronunciation": "/ˈklæm.ər/",
+    "partOfSpeech": "noun",
+    "definition": "A loud and confused noise, often from a crowd",
+    "example": "The clamor from the protesters was deafening."
+  },
+  {
+    "word": "Clandestine",
+    "pronunciation": "/klænˈdes.tɪn/",
+    "partOfSpeech": "adjective",
+    "definition": "Kept secret, especially for an illicit purpose",
+    "example": "They held a clandestine meeting."
+  },
+  {
+    "word": "Clarity",
+    "pronunciation": "/ˈklær.ə.ti/",
+    "partOfSpeech": "noun",
+    "definition": "Clearness and lucidity in expression",
+    "example": "The instructions were given with clarity."
+  },
+  {
+    "word": "Clout",
+    "pronunciation": "/klaʊt/",
+    "partOfSpeech": "noun",
+    "definition": "Influence or power, especially in politics",
+    "example": "He has clout in the industry."
+  },
+  {
+    "word": "Coalesce",
+    "pronunciation": "/ˌkoʊ.əˈles/",
+    "partOfSpeech": "verb",
+    "definition": "To come together and form one mass or whole",
+    "example": "Several groups coalesced to form a new party."
+  },
+  {
+    "word": "Coda",
+    "pronunciation": "/ˈkoʊ.də/",
+    "partOfSpeech": "noun",
+    "definition": "A concluding event, remark, or section",
+    "example": "The final chapter is a fitting coda to the book."
+  },
+  {
+    "word": "Cogent",
+    "pronunciation": "/ˈkoʊ.dʒənt/",
+    "partOfSpeech": "adjective",
+    "definition": "Clear, logical, and convincing",
+    "example": "She made a cogent argument."
+  },
+  {
+    "word": "Cogitate",
+    "pronunciation": "/ˈkɑː.dʒə.teɪt/",
+    "partOfSpeech": "verb",
+    "definition": "To think deeply about something; meditate or reflect",
+    "example": "He cogitated on the meaning of life."
+  },
+  {
+    "word": "Coherent",
+    "pronunciation": "/koʊˈhɪr.ənt/",
+    "partOfSpeech": "adjective",
+    "definition": "Logical and consistent",
+    "example": "The essay is clear and coherent."
+  },
+  {
+    "word": "Commend",
+    "pronunciation": "/kəˈmend/",
+    "partOfSpeech": "verb",
+    "definition": "To praise formally or officially",
+    "example": "She was commended for her bravery."
+  },
+  {
+    "word": "Commensurate",
+    "pronunciation": "/kəˈmen.sjər.ət/",
+    "partOfSpeech": "adjective",
+    "definition": "Corresponding in size or degree",
+    "example": "The salary is commensurate with experience."
+  },
+  {
+    "word": "Compendium",
+    "pronunciation": "/kəmˈpen.di.əm/",
+    "partOfSpeech": "noun",
+    "definition": "A collection of concise but detailed information about a subject",
+    "example": "A compendium of math formulas."
+  },
+  {
+    "word": "Complement",
+    "pronunciation": "/ˈkɑːm.plə.ment/",
+    "partOfSpeech": "noun",
+    "definition": "A thing that completes or brings to perfection",
+    "example": "Rice is a complement to curry."
+  },
+  {
+    "word": "Compliant",
+    "pronunciation": "/kəmˈplaɪ.ənt/",
+    "partOfSpeech": "adjective",
+    "definition": "Inclined to agree with others or obey rules",
+    "example": "The company was compliant with new regulations."
+  },
+  {
+    "word": "Conciliate",
+    "pronunciation": "/kənˈsɪl.i.eɪt/",
+    "partOfSpeech": "verb",
+    "definition": "To stop someone from being angry; to placate or pacify",
+    "example": "He tried to conciliate his critics."
+  },
+  {
+    "word": "Concise",
+    "pronunciation": "/kənˈsaɪs/",
+    "partOfSpeech": "adjective",
+    "definition": "Giving a lot of information clearly and in a few words; brief",
+    "example": "A concise summary."
+  },
+  {
+    "word": "Concur",
+    "pronunciation": "/kənˈkɜːr/",
+    "partOfSpeech": "verb",
+    "definition": "To agree",
+    "example": "Historians concur that the war ended in 1945."
+  },
+  {
+    "word": "Condone",
+    "pronunciation": "/kənˈdoʊn/",
+    "partOfSpeech": "verb",
+    "definition": "To accept or allow behavior that is morally wrong",
+    "example": "The teacher cannot condone cheating."
+  },
+  {
+    "word": "Conducive",
+    "pronunciation": "/kənˈduː.sɪv/",
+    "partOfSpeech": "adjective",
+    "definition": "Making a certain situation or outcome likely or possible",
+    "example": "A quiet room is conducive to studying."
+  },
+  {
+    "word": "Confound",
+    "pronunciation": "/kənˈfaʊnd/",
+    "partOfSpeech": "verb",
+    "definition": "To cause surprise or confusion",
+    "example": "His sudden departure confounded us."
+  },
+  {
+    "word": "Connoisseur",
+    "pronunciation": "/ˌkɒn.əˈsɜːr/",
+    "partOfSpeech": "noun",
+    "definition": "An expert judge in matters of taste",
+    "example": "A connoisseur of fine art."
+  },
+  {
+    "word": "Conspicuous",
+    "pronunciation": "/kənˈspɪk.ju.əs/",
+    "partOfSpeech": "adjective",
+    "definition": "Clearly visible; attracting attention",
+    "example": "She felt conspicuous in her bright dress."
+  },
+  {
+    "word": "Consternation",
+    "pronunciation": "/ˌkɑːn.stɚˈneɪ.ʃən/",
+    "partOfSpeech": "noun",
+    "definition": "Feelings of anxiety or dismay",
+    "example": "The announcement caused consternation."
+  },
+  {
+    "word": "Constrain",
+    "pronunciation": "/kənˈstreɪn/",
+    "partOfSpeech": "verb",
+    "definition": "To severely restrict the scope or activity of",
+    "example": "His finances constrain his options."
+  },
+  {
+    "word": "Construe",
+    "pronunciation": "/kənˈstruː/",
+    "partOfSpeech": "verb",
+    "definition": "To interpret or analyze",
+    "example": "His words could be construed as criticism."
+  },
+  {
+    "word": "Contend",
+    "pronunciation": "/kənˈtend/",
+    "partOfSpeech": "verb",
+    "definition": "Struggle to surmount; assert as an argument",
+    "example": "He contends that the policy is unfair."
+  },
+  {
     "word": "Contrite",
     "pronunciation": "/kənˈtraɪt/",
     "partOfSpeech": "adjective",
