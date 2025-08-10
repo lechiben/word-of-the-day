@@ -1,5 +1,4 @@
 // URL to your JSON file on GitHub (raw content)
-// Replace with your actual GitHub raw file URL
 const WORDS_JSON_URL =
   "https://raw.githubusercontent.com/lechiben/word-of-the-day/refs/heads/main/gre-words.json";
 
