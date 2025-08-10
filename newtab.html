@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word of the Day</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="word-card">
+            <div class="word-header">
+                <h1 id="word-text">Loading...</h1>
+                <div class="pronunciation" id="word-pronunciation"></div>
+                <div class="part-of-speech" id="word-pos"></div>
+            </div>
+            
+            <div class="definition-section">
+                <h3>Definition</h3>
+                <p id="word-definition">Loading your daily word...</p>
+            </div>
+            
+            <div class="example-section">
+                <h3>Example</h3>
+                <p id="word-example">Loading example...</p>
+            </div>
+            
+            <div class="etymology-section" id="etymology-section">
+                <h3>Etymology</h3>
+                <p id="word-etymology"></p>
+            </div>
+        </div>
+        
+        <div class="bottom-section">
+            <button id="new-word-btn" class="new-word-btn">
+                <span>📚</span> Get New Word
+            </button>
+            <button id="pronounce-btn" class="pronounce-btn">
+                <span>🔊</span> Pronounce
+            </button>
+            <div class="date-display" id="current-date"></div>
+        </div>
+    </div>
+
+    <script src="newtab.js"></script>
+</body>
+</html>
