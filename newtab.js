@@ -1,10 +1,20 @@
-// URL to your JSON file on GitHub (raw content)
-const WORDS_JSON_URL =
-  "https://raw.githubusercontent.com/lechiben/word-of-the-day/refs/heads/main/gre-words.json";
+// GitHub configuration
+const GITHUB_CONFIG = {
+  owner: "lechiben", // Your GitHub username
+  repo: "word-of-the-day", // Your repository name
+  branch: "main", // or 'master' depending on your repo
+  file: "gre-words.json",
+};
+
+// Construct URLs
+const WORDS_JSON_URL = `https://raw.githubusercontent.com/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/${GITHUB_CONFIG.branch}/${GITHUB_CONFIG.file}`;
+const GITHUB_API_URL = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/contents/${GITHUB_CONFIG.file}?ref=${GITHUB_CONFIG.branch}`;
 
 // Cache for words data
 let wordsData = [];
 let isDataLoaded = false;
+let lastFetchTime = 0;
+const CACHE_DURATION = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
 
 // Fallback words in case GitHub fetch fails
 const fallbackWords = [
@@ -38,39 +48,144 @@ const fallbackWords = [
   },
 ];
 
-// Fetch words from GitHub
+// Chrome storage utilities
+async function saveToStorage(key, data) {
+  try {
+    await chrome.storage.local.set({ [key]: data });
+  } catch (error) {
+    console.warn("Failed to save to storage:", error);
+  }
+}
+
+async function getFromStorage(key) {
+  try {
+    const result = await chrome.storage.local.get([key]);
+    return result[key];
+  } catch (error) {
+    console.warn("Failed to get from storage:", error);
+    return null;
+  }
+}
+
+// Check if we need to fetch new data
+async function shouldFetchNewData() {
+  const cachedTime = await getFromStorage("lastFetchTime");
+  const cachedData = await getFromStorage("wordsData");
+
+  if (!cachedTime || !cachedData) {
+    return true;
+  }
+
+  const timeSinceLastFetch = Date.now() - cachedTime;
+  return timeSinceLastFetch > CACHE_DURATION;
+}
+
+// Load cached data if available
+async function loadCachedData() {
+  try {
+    const cachedData = await getFromStorage("wordsData");
+    const cachedTime = await getFromStorage("lastFetchTime");
+
+    if (cachedData && Array.isArray(cachedData) && cachedData.length > 0) {
+      wordsData = cachedData;
+      lastFetchTime = cachedTime || 0;
+      isDataLoaded = true;
+      console.log(`Loaded ${wordsData.length} words from cache`);
+      return true;
+    }
+  } catch (error) {
+    console.warn("Failed to load cached data:", error);
+  }
+  return false;
+}
+
+// Fetch words from GitHub using different methods
 async function fetchWordsFromGitHub() {
   try {
     showLoadingState();
 
-    const response = await fetch(WORDS_JSON_URL, {
-      method: "GET",
-      headers: {
-        Accept: "application/json",
-        "Cache-Control": "no-cache",
-      },
-    });
+    // Method 1: Try direct raw GitHub URL first
+    let response;
+    let data;
 
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
+    try {
+      response = await fetch(WORDS_JSON_URL, {
+        method: "GET",
+        headers: {
+          Accept: "application/json",
+          "Cache-Control": "no-cache",
+        },
+        mode: "cors", // Explicitly set CORS mode
+      });
+
+      if (response.ok) {
+        data = await response.json();
+      }
+    } catch (error) {
+      console.warn("Raw GitHub URL failed:", error);
     }
 
-    const data = await response.json();
+    // Method 2: Try GitHub API if raw URL failed
+    if (!data) {
+      try {
+        response = await fetch(GITHUB_API_URL, {
+          method: "GET",
+          headers: {
+            Accept: "application/vnd.github.v3+json",
+            "User-Agent": "GRE-Word-Extension",
+          },
+          mode: "cors",
+        });
 
-    if (Array.isArray(data) && data.length > 0) {
+        if (response.ok) {
+          const apiResponse = await response.json();
+          // Decode base64 content
+          const decodedContent = atob(apiResponse.content);
+          data = JSON.parse(decodedContent);
+        }
+      } catch (error) {
+        console.warn("GitHub API failed:", error);
+      }
+    }
+
+    if (data && Array.isArray(data) && data.length > 0) {
       wordsData = data;
       isDataLoaded = true;
-      console.log(`Loaded ${wordsData.length} words from GitHub`);
+      lastFetchTime = Date.now();
+
+      // Cache the data
+      await saveToStorage("wordsData", wordsData);
+      await saveToStorage("lastFetchTime", lastFetchTime);
+
+      console.log(`Successfully loaded ${wordsData.length} words from GitHub`);
       return true;
     } else {
-      throw new Error("Invalid data format received");
+      throw new Error("Invalid data format received or empty array");
     }
   } catch (error) {
     console.warn("Failed to fetch words from GitHub:", error);
-    console.log("Using fallback words");
-    wordsData = fallbackWords;
-    isDataLoaded = true;
+
+    // Try to load cached data as fallback
+    const cachedLoaded = await loadCachedData();
+    if (!cachedLoaded) {
+      console.log("Using fallback words");
+      wordsData = fallbackWords;
+      isDataLoaded = true;
+    }
     return false;
+  }
+}
+
+// Check for updates periodically
+async function checkForUpdates() {
+  if (await shouldFetchNewData()) {
+    console.log("Checking for word database updates...");
+    const success = await fetchWordsFromGitHub();
+    if (success) {
+      const randomWord = getRandomWord();
+      displayWord(randomWord);
+      updateWordCountDisplay();
+    }
   }
 }
 
@@ -114,6 +229,24 @@ function getRandomWord() {
   return wordsData[randomIndex];
 }
 
+// Update word count display
+function updateWordCountDisplay() {
+  const wordCountElement = document.getElementById("word-count");
+  if (wordCountElement) {
+    const cacheAge = lastFetchTime ? Date.now() - lastFetchTime : 0;
+    const hoursOld = Math.floor(cacheAge / (1000 * 60 * 60));
+
+    let statusText = `${wordsData.length} words in database`;
+    if (hoursOld > 0 && hoursOld < 24) {
+      statusText += ` (updated ${hoursOld}h ago)`;
+    } else if (hoursOld >= 24) {
+      statusText += ` (checking for updates...)`;
+    }
+
+    wordCountElement.textContent = statusText;
+  }
+}
+
 // Display word with animation
 function displayWord(wordData) {
   const elements = {
@@ -132,11 +265,22 @@ function displayWord(wordData) {
   });
 
   setTimeout(() => {
+    // Handle different data formats for definition and part of speech
+    let definition = wordData.definition;
+    let partOfSpeech = wordData.partOfSpeech;
+
+    // Handle arrays for definitions and parts of speech
+    if (Array.isArray(definition)) {
+      definition = definition.join("; ");
+    }
+    if (Array.isArray(partOfSpeech)) {
+      partOfSpeech = partOfSpeech.join(", ");
+    }
+
     elements.word.textContent = wordData.word || "Unknown";
     elements.pronunciation.textContent = wordData.pronunciation || "";
-    elements.pos.textContent = wordData.partOfSpeech || "";
-    elements.definition.textContent =
-      wordData.definition || "No definition available";
+    elements.pos.textContent = partOfSpeech || "";
+    elements.definition.textContent = definition || "No definition available";
     elements.example.textContent = wordData.example || "No example available";
 
     // Handle etymology (optional field)
@@ -191,13 +335,32 @@ function pronounceWord() {
   }
 }
 
-// Retry loading words
-async function retryLoadWords() {
+// Force refresh from GitHub
+async function forceRefreshFromGitHub() {
+  console.log("Force refreshing word database...");
+
+  // Clear cache
+  await saveToStorage("wordsData", null);
+  await saveToStorage("lastFetchTime", null);
+
   const success = await fetchWordsFromGitHub();
   if (success) {
-    // Display a new random word after successful load
     const randomWord = getRandomWord();
     displayWord(randomWord);
+    updateWordCountDisplay();
+
+    // Show success message
+    const wordCountElement = document.getElementById("word-count");
+    if (wordCountElement) {
+      const originalText = wordCountElement.textContent;
+      wordCountElement.textContent = "✓ Database updated!";
+      wordCountElement.style.color = "#4facfe";
+
+      setTimeout(() => {
+        updateWordCountDisplay();
+        wordCountElement.style.color = "";
+      }, 2000);
+    }
   }
 }
 
@@ -205,9 +368,7 @@ async function retryLoadWords() {
 function setupNetworkHandling() {
   window.addEventListener("online", () => {
     console.log("Network connection restored");
-    if (!isDataLoaded || wordsData.length <= fallbackWords.length) {
-      retryLoadWords();
-    }
+    checkForUpdates();
   });
 
   window.addEventListener("offline", () => {
@@ -223,17 +384,23 @@ async function init() {
   // Set up network handling
   setupNetworkHandling();
 
-  // Fetch words from GitHub
-  await fetchWordsFromGitHub();
+  // Try to load cached data first for immediate display
+  const cachedLoaded = await loadCachedData();
 
-  // Display a random word on initial load
-  const randomWord = getRandomWord();
-  displayWord(randomWord);
+  if (cachedLoaded) {
+    // Display a word immediately from cache
+    const randomWord = getRandomWord();
+    displayWord(randomWord);
+    updateWordCountDisplay();
 
-  // Update word count display
-  const wordCountElement = document.getElementById("word-count");
-  if (wordCountElement) {
-    wordCountElement.textContent = `${wordsData.length} words in database`;
+    // Check for updates in background
+    setTimeout(checkForUpdates, 1000);
+  } else {
+    // No cache, fetch from GitHub
+    await fetchWordsFromGitHub();
+    const randomWord = getRandomWord();
+    displayWord(randomWord);
+    updateWordCountDisplay();
   }
 
   // Add event listeners
@@ -245,12 +412,6 @@ async function init() {
   document
     .getElementById("pronounce-btn")
     .addEventListener("click", pronounceWord);
-
-  // Add retry button functionality (if you add one to HTML)
-  const retryBtn = document.getElementById("retry-btn");
-  if (retryBtn) {
-    retryBtn.addEventListener("click", retryLoadWords);
-  }
 
   // Add keyboard shortcut for pronunciation (spacebar)
   document.addEventListener("keydown", (e) => {
@@ -271,57 +432,28 @@ async function init() {
       displayWord(randomWord);
     }
   });
+
+  // Add keyboard shortcut for force refresh (R key)
+  document.addEventListener("keydown", (e) => {
+    if (
+      e.key.toLowerCase() === "r" &&
+      !e.target.matches("button, input, textarea")
+    ) {
+      e.preventDefault();
+      forceRefreshFromGitHub();
+    }
+  });
+
+  // Periodically check for updates (every 30 minutes)
+  setInterval(checkForUpdates, 30 * 60 * 1000);
 }
-
-// Add CSS transition for smooth word changes
-const style = document.createElement("style");
-style.textContent = `
-    #word-text, #word-pronunciation, #word-pos, #word-definition, #word-example, #word-etymology {
-        transition: opacity 0.3s ease-in-out;
-    }
-    
-    .etymology-section {
-        transition: opacity 0.3s ease-in-out;
-    }
-    
-    .retry-btn {
-        background: linear-gradient(45deg, #ff9500, #ff6b35);
-        color: white;
-        border: none;
-        padding: 8px 16px;
-        border-radius: 20px;
-        font-size: 12px;
-        font-weight: 500;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        margin-left: 10px;
-        box-shadow: 0 4px 8px rgba(255, 149, 0, 0.3);
-    }
-    
-    .retry-btn:hover {
-        transform: translateY(-1px);
-        box-shadow: 0 6px 12px rgba(255, 149, 0, 0.4);
-    }
-    
-    .loading-indicator {
-        display: inline-block;
-        animation: pulse 1.5s ease-in-out infinite;
-    }
-    
-    @keyframes pulse {
-        0% { opacity: 1; }
-        50% { opacity: 0.5; }
-        100% { opacity: 1; }
-    }
-`;
-document.head.appendChild(style);
-
-// Start the extension when DOM is loaded
-document.addEventListener("DOMContentLoaded", init);
 
 // Handle page visibility changes (when tab becomes active)
 document.addEventListener("visibilitychange", () => {
-  if (!document.hidden && !isDataLoaded) {
-    retryLoadWords();
+  if (!document.hidden) {
+    checkForUpdates();
   }
 });
+
+// Start the extension when DOM is loaded
+document.addEventListener("DOMContentLoaded", init);

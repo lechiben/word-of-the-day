@@ -1,19 +1,22 @@
 {
   "manifest_version": 3,
   "name": "Word of the Day - GRE Vocabulary",
-  "version": "1.1",
+  "version": "1.3",
   "description": "Learn a new GRE vocabulary word every time you open a new tab",
   "chrome_url_overrides": {
     "newtab": "newtab.html"
   },
   "permissions": ["storage"],
-  "host_permissions": ["https://raw.githubusercontent.com/*"],
+  "host_permissions": [
+    "https://raw.githubusercontent.com/*",
+    "https://api.github.com/*"
+  ],
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
     "128": "icon128.png"
   },
   "content_security_policy": {
-    "extension_pages": "script-src 'self'; object-src 'self'"
+    "extension_pages": "script-src 'self'; object-src 'self'; connect-src 'self' https://raw.githubusercontent.com https://api.github.com;"
   }
 }
